@@ -1,4 +1,11 @@
-const cloudinary = require('cloudinary-core');
+const imageContainer = document.getElementById("image-container");
+const cloudinary = window.cloudinary;
+
+async function fetchImages() {
+  const response = await fetch("/.netlify/functions/listImages");
+  const images = await response.json();
+  return images;
+}
 const cl = new cloudinary.Cloudinary({ cloud_name: 'programNOW', secure: true, api_key: 'aap25f3WGsTQOShjJECZtoHlsMI' });
 
 const imageContainer = document.getElementById('image-container');
