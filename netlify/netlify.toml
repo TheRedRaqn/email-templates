@@ -2,3 +2,6 @@
   command = "# No build command needed"
   publish = "."
   functions = "functions"
+
+[build.environment]
+  NODE_VERSION = "14"
