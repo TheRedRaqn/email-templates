@@ -1,0 +1,9 @@
+.image-wrapper {
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+}
+
+.image-title {
+  margin-top: 10px;
+}
