@@ -30,7 +30,7 @@ function groupImagesByPrefix(images) {
       imageWrapper.className = 'image-wrapper';
 
       const imgElement = document.createElement('img');
-      imgElement.src = `images/${image}`;
+      imgElement.src = `public/images/${image}`;
 
       const titleElement = document.createElement('p');
       titleElement.className = 'image-title';
@@ -57,7 +57,7 @@ document.getElementById('refresh-images').addEventListener('click', async () => 
       imageWrapper.className = 'image-wrapper';
 
       const imgElement = document.createElement('img');
-      imgElement.src = `images/${image}`;
+      imgElement.src = `public/images/${image}`;
 
       const titleElement = document.createElement('p');
       titleElement.className = 'image-title';
