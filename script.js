@@ -1,5 +1,5 @@
 const cloudinary = require('cloudinary-core');
-const cl = new cloudinary.Cloudinary({ cloud_name: 'programNOW', secure: true });
+const cl = new cloudinary.Cloudinary({ cloud_name: 'programNOW', secure: true, api_key: 'aap25f3WGsTQOShjJECZtoHlsMI' });
 
 const imageContainer = document.getElementById('image-container');
 
